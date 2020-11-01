@@ -83,16 +83,14 @@ for i in range (0,n):
     tw=values_list2[i]
     time_window_i=list(tw[0:w])
     mef_i=list()
-    z_i=list()
     p=len(tw)
     f=frekans(time_window_i)
     mef_i.append(f)
     for k in range (w,p):
-        x=k-w
-        z_i=tw[w:k]
-        time_window_i.extend(z_i)
+        x=tw[k]
+        time_window_i.append(x)
         if len(time_window_i)>w:
-            del time_window_i[0:x]
+            time_window_i.pop(0)
         f2=frekans(time_window_i)
         mef_i.append(f2)
     dglm_array=np.arange(start=1.5, stop=2.5, step=0.05)
@@ -108,7 +106,7 @@ for i in range (0,n):
     print(za2)
     iki = plt.figure(2)
     plt.subplot(2,4,i+1)
-    plt.plot(mef_i[200:1200], color='indianred')
+    plt.plot(mef_i, color='indianred')
     plt.title(keys_list[i])
     iki.show()
     uc = plt.figure(3)
