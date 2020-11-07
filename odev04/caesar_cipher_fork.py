@@ -11,7 +11,6 @@ import sys
 
 alphabet="abcdefghijklmnopqrstuvwxyz"
 queueLock=Lock()
-exitFlag=0
 
 
 def encrypt(text):
@@ -42,7 +41,6 @@ def caesarChipper(workQueue, doneQueue):
 
 def main():
     global s,n,l
-    global exitFlag
     global inputcaesar,outputcaesar
     workQueue=Queue()
     doneQueue=Queue()
@@ -66,6 +64,7 @@ def main():
     for i in range(0,n):
         p = Process(target=caesarChipper, args=(workQueue, doneQueue))
         p.start()
+        print(p)
         processList.append(p)
         
     queueLock.acquire()
@@ -74,15 +73,15 @@ def main():
         if string != "":
             workQueue.put(string)
         else:
-            queueLock.release()
             break
+    queueLock.release()
         
-    while not workQueue.empty():
-        pass
-    exitFlag = 1
+    
+    #doneQueue.put("STOP")
     
     for p in processList:
         p.join()
+        print(p)
         
     inputcaesar.close()
     outputcaesar.close()
