@@ -31,6 +31,8 @@ def receive(datastr):
     elif datastr != "STA":
         if datastr == "TIC":
             cevap="TOC"
+        elif datastr == "QUI":
+            cevap="BYE"
         else:
             cevap="GRR"
             #break
@@ -39,17 +41,16 @@ def receive(datastr):
     return cevap
 
 def oyun(komutstr, n):
-    if len(komutstr) != 2:
-        if len(komutstr)==1:
-            if komutstr=="TIC":
-                cvp = "TIC"
-            elif komutstr=="QUI":
-                cvp = "BYE"
-            else:
-                cvp = "ERR"
+    if len(komutstr) == 1 :
+        if komutstr[0]=="TIC":
+            cvp = "TOC"
+        elif komutstr[0]=="QUI":
+            cvp = "BYE"
+        elif komutstr[0]=="STA":
+            cvp = "RDY"
         else:
             cvp = "ERR"
-    else:
+    elif len(komutstr) == 2:
         if komutstr[0] == "TRY":
             sayi = int(komutstr[1])
             if type(sayi) != int:
@@ -64,6 +65,8 @@ def oyun(komutstr, n):
                 cvp = "ERR"
         else:
             cvp = "ERR"
+    else:
+        cvp = "ERR"
     return cvp
         
 
@@ -72,18 +75,23 @@ def threaded(c):
     while not exitFlag:
         data=c.recv(1024)
         datastr=data.decode().strip()
-        cvp=receive(datastr)
-        c.send(cvp.encode())
-        #her seferinde yeni sayi atiyo bu kismi duzeltmeyi yetistiremedim
-        n=random.randint(0,100)
-        while cvp == "RDY":
+        if datastr == "STA":
+            n=random.randint(0,100)
+        cvvp=receive(datastr)
+        c.send(cvvp.encode())
+        while cvvp == "RDY":
             komut=c.recv(1024)
             komutstr=komut.decode().strip().split()
             ans = oyun(komutstr,n)
             c.send(ans.encode())
-            if ans == "QUI" or ans == "WIN":
+            if ans == "WIN":
                 c.close()
                 exitFlag=1
+            elif ans == "BYE":
+                c.close()
+                exitFlag=1
+            else:
+                exitFlag=0
     c.close()
 
 def main():  
