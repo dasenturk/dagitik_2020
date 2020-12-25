@@ -1,0 +1,121 @@
+Fri Dec 25 17:02:32 2020 Starting LoggerThread
+Fri Dec 25 17:02:32 2020 Waiting for connection
+Fri Dec 25 17:02:38 2020 Got a connection from ('127.0.0.1', 53192)
+Fri Dec 25 17:02:38 2020 Starting the ReadThread-1
+Fri Dec 25 17:02:39 2020 Starting the WriteThread-1
+Fri Dec 25 17:02:39 2020 Waiting for connection
+Fri Dec 25 17:02:45 2020 Client: GNL selam
+Fri Dec 25 17:02:45 2020 Server: LRR (1) 
+Fri Dec 25 17:02:57 2020 Client: GNL giris yapmadan yazamiyo muyum
+Fri Dec 25 17:02:57 2020 Server: LRR (1) 
+Fri Dec 25 17:03:02 2020 Client: NIC damla
+Fri Dec 25 17:03:02 2020 damla has joined the chat.
+Fri Dec 25 17:03:09 2020 damla: GNL yazamiyomusum
+Fri Dec 25 17:03:09 2020 Server: OKG
+Fri Dec 25 17:03:22 2020 damla: GNL kimse yok mu
+Fri Dec 25 17:03:22 2020 Server: OKG
+Fri Dec 25 17:03:26 2020 damla: GLS
+Fri Dec 25 17:03:26 2020 Server: LST damla
+Fri Dec 25 17:03:41 2020 Got a connection from ('127.0.0.1', 53193)
+Fri Dec 25 17:03:41 2020 Starting the ReadThread-2
+Fri Dec 25 17:03:41 2020 Starting the WriteThread-2
+Fri Dec 25 17:03:41 2020 Waiting for connection
+Fri Dec 25 17:03:46 2020 Client: NIC pinar
+Fri Dec 25 17:03:46 2020 pinar has joined the chat.
+Fri Dec 25 17:04:18 2020 pinar: GLS
+Fri Dec 25 17:04:18 2020 Server: LST damla:pinar
+Fri Dec 25 17:04:31 2020 pinar: PRV damla:cakil nerde?
+Fri Dec 25 17:04:31 2020 Server: OKP
+Fri Dec 25 17:04:44 2020 damla: PRV pinar: bilmem gelir simdi
+Fri Dec 25 17:04:44 2020 Server: OKP
+Fri Dec 25 17:04:53 2020 Got a connection from ('127.0.0.1', 53197)
+Fri Dec 25 17:04:53 2020 Starting the ReadThread-3
+Fri Dec 25 17:04:53 2020 Starting the WriteThread-3
+Fri Dec 25 17:04:53 2020 Waiting for connection
+Fri Dec 25 17:05:01 2020 Client: NIC deniz
+Fri Dec 25 17:05:01 2020 deniz has joined the chat.
+Fri Dec 25 17:05:11 2020 Got a connection from ('127.0.0.1', 53198)
+Fri Dec 25 17:05:11 2020 Starting the ReadThread-4
+Fri Dec 25 17:05:11 2020 Starting the WriteThread-4
+Fri Dec 25 17:05:11 2020 Waiting for connection
+Fri Dec 25 17:05:15 2020 Client: NIC cakil
+Fri Dec 25 17:05:15 2020 cakil has joined the chat.
+Fri Dec 25 17:05:18 2020 Got a connection from ('127.0.0.1', 53199)
+Fri Dec 25 17:05:18 2020 Starting the ReadThread-5
+Fri Dec 25 17:05:18 2020 Starting the WriteThread-5
+Fri Dec 25 17:05:18 2020 Waiting for connection
+Fri Dec 25 17:05:22 2020 Client: NIC deniz
+Fri Dec 25 17:05:22 2020 Server: REJ deniz
+Fri Dec 25 17:05:27 2020 Client: NIC tosun
+Fri Dec 25 17:05:27 2020 tosun has joined the chat.
+Fri Dec 25 17:05:54 2020 cakil: GNL selaam
+Fri Dec 25 17:05:55 2020 Server: OKG
+Fri Dec 25 17:06:01 2020 pinar: PRV damla:neyse geldi tosunlaymis
+Fri Dec 25 17:06:01 2020 Server: OKP
+Fri Dec 25 17:06:31 2020 deniz: GNL herkes burda mi
+Fri Dec 25 17:06:31 2020 Server: OKG
+Fri Dec 25 17:06:34 2020 deniz: GLS
+Fri Dec 25 17:06:34 2020 Server: LST damla:pinar:deniz:cakil:tosun
+Fri Dec 25 17:06:49 2020 tosun: PRV cakil:aciktim aciktin mi sen de?
+Fri Dec 25 17:06:49 2020 Server: OKP
+Fri Dec 25 17:07:10 2020 cakil: PRV tosun: ben de cok aciktim, biri bize yemek verse de sonra kedi avina ciksak
+Fri Dec 25 17:07:10 2020 Server: OKP
+Fri Dec 25 17:07:27 2020 tosun: PRV cakil: guzel plan begendim
+Fri Dec 25 17:07:27 2020 Server: OKP
+Fri Dec 25 17:07:43 2020 cakil: GNL kim bize yemek vericek? aciktik biz tosunla
+Fri Dec 25 17:07:43 2020 Server: OKG
+Fri Dec 25 17:07:58 2020 pinar: GNL benim toplantim var cikmam lazim benim
+Fri Dec 25 17:07:58 2020 Server: OKG
+Fri Dec 25 17:08:20 2020 pinar: PRV damla:kurtar kendini
+Fri Dec 25 17:08:20 2020 Server: OKP
+Fri Dec 25 17:08:28 2020 pinar: QUI
+Fri Dec 25 17:08:28 2020 pinar has left the chat.
+Fri Dec 25 17:08:28 2020 Ending connection with ('127.0.0.1', 53193)
+Fri Dec 25 17:08:28 2020 Exiting the ReadThread-2
+Fri Dec 25 17:08:28 2020 Exiting the WriteThread-2
+Fri Dec 25 17:08:38 2020 damla: PRV pinar:dur beni bekle
+Fri Dec 25 17:08:38 2020 Server: NOPpinar
+Fri Dec 25 17:09:08 2020 damla: GNL benim baglantim kotu galiba ya ne dediniz
+Fri Dec 25 17:09:08 2020 Server: OKG
+Fri Dec 25 17:09:11 2020 damla: PIN
+Fri Dec 25 17:09:11 2020 Server: PON
+Fri Dec 25 17:09:56 2020 damla: PRV cakil:ben caktirmadan cikiyorum deniz beslesin sizi
+Fri Dec 25 17:09:56 2020 Server: OKP
+Fri Dec 25 17:10:04 2020 damla: QUI
+Fri Dec 25 17:10:04 2020 damla has left the chat.
+Fri Dec 25 17:10:04 2020 Ending connection with ('127.0.0.1', 53192)
+Fri Dec 25 17:10:04 2020 Exiting the ReadThread-1
+Fri Dec 25 17:10:04 2020 Exiting the WriteThread-1
+Fri Dec 25 17:10:19 2020 cakil: GNL ee ne zaman yemek yiyoruz
+Fri Dec 25 17:10:19 2020 Server: OKG
+Fri Dec 25 17:10:54 2020 tosun: GNL evet daha yuruyuse gidip kedi kovalicaz hadi
+Fri Dec 25 17:10:54 2020 Server: OKG
+Fri Dec 25 17:11:22 2020 deniz: PRV damla: napicaz
+Fri Dec 25 17:11:22 2020 Server: NOPdamla
+Fri Dec 25 17:11:44 2020 deniz: PRV pinar:napicaz
+Fri Dec 25 17:11:44 2020 Server: NOPpinar
+Fri Dec 25 17:11:59 2020 deniz: GNL hainler kacmis beni birakmislar
+Fri Dec 25 17:11:59 2020 Server: OKG
+Fri Dec 25 17:12:05 2020 deniz: GLS
+Fri Dec 25 17:12:05 2020 Server: LST deniz:cakil:tosun
+Fri Dec 25 17:12:21 2020 deniz: GNL napalim artik hadi gelin besliyim sizi
+Fri Dec 25 17:12:21 2020 Server: OKG
+Fri Dec 25 17:12:37 2020 cakil: GNL YASASIN
+Fri Dec 25 17:12:37 2020 Server: OKG
+Fri Dec 25 17:12:44 2020 tosun: GNL OLEY
+Fri Dec 25 17:12:44 2020 Server: OKG
+Fri Dec 25 17:12:47 2020 tosun: QUI
+Fri Dec 25 17:12:47 2020 tosun has left the chat.
+Fri Dec 25 17:12:47 2020 Ending connection with ('127.0.0.1', 53199)
+Fri Dec 25 17:12:47 2020 Exiting the ReadThread-5
+Fri Dec 25 17:12:48 2020 Exiting the WriteThread-5
+Fri Dec 25 17:12:50 2020 cakil: QUI
+Fri Dec 25 17:12:50 2020 cakil has left the chat.
+Fri Dec 25 17:12:50 2020 Ending connection with ('127.0.0.1', 53198)
+Fri Dec 25 17:12:50 2020 Exiting the ReadThread-4
+Fri Dec 25 17:12:51 2020 Exiting the WriteThread-4
+Fri Dec 25 17:12:54 2020 deniz: QUI
+Fri Dec 25 17:12:54 2020 deniz has left the chat.
+Fri Dec 25 17:12:54 2020 Ending connection with ('127.0.0.1', 53197)
+Fri Dec 25 17:12:54 2020 Exiting the ReadThread-3
+Fri Dec 25 17:12:54 2020 Exiting the WriteThread-3
