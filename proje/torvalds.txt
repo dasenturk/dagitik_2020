@@ -1,4 +1,5 @@
 LOR open
+NIC torvalds:1972
 LOG torvalds:1972
 NIC torvalds:1974
 LOR open
