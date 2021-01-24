@@ -2,7 +2,7 @@ NIC tux:herring
 NIC tux:1994
 NIC torvalds:1972
 LOG tux:1984
-LOG tux:1994
+LOG tux:herring
 NRM gentoo
 ERM gentoo
 KRM gentoo:torvalds
