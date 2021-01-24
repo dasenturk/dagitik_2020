@@ -1,0 +1,5 @@
+1. NIC komutu sifre olarak string aliyor o yuzden tux.txt dosyasinda ilk girilen herring sifresini kabul edecektir, bu yuzden LOG sifresini de herring olarak degistirdim.
+
+2. tux.txt dosyasinda kullanici odayi actigi an odaya admin olarak girmis varsayiliyor, o yuzden tekrar girmek isterse AIR (Zaten odadasin) hatasini alacaktir.
+
+3. tux.txt dosyasinda kullanici diger kullaniciyi once odadan atip sonra banlamaya calistiginda NIR (kisi bu odada degil) hatasi alacaktir cunku program KRM, BAN ve ADM islemlerinde odayi tariyor ve ona gore islem yapiyor.
