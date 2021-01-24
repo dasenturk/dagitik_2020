@@ -1,0 +1,11 @@
+LOR open
+LOG torvalds:1972
+NIC torvalds:1974
+LOR open
+GNL gentoo:selam
+GNL gentoo:tekrar selam
+PRV tux:beni niye banladin?
+ERM ubuntu
+GLS ubuntu
+GNL ubuntu:hey
+KRM ubuntu:tux

@@ -1,0 +1,10 @@
+NIC kde:2020
+LOG kde:2020
+LOR open
+ERM ubuntu
+GLS ubuntu
+NRM plasma
+ERM plasma
+LOR open
+LOR me
+DRM plasma
